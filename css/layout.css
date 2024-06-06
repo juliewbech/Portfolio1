@@ -153,14 +153,14 @@
   .sat7link:hover {
     color: #b70083;
   }
-  header {
+  /* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-  }
+  } */
 
-  .nav-menu ul {
+  /* .nav-menu ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -219,43 +219,7 @@
   }
   .nav-menu.active {
     display: flex;
-  }
-}
-
-/* TABLET */
-@media (min-width: 768px) {
-  .burger-menu {
-    display: none;
-  }
-  .screen {
-    width: 100%;
-    aspect-ratio: 16/9;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .normal_navigation {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  nav li {
-    padding: 0.5em;
-  }
-  nav li a {
-    color: black;
-    font-family: raleway_regular;
-    font-size: 18px;
-    letter-spacing: 4px;
-  }
-  .portrait {
-    width: 40%;
-    position: absolute;
-    top: 1%;
-    left: 60.5%;
-  }
+  } */
   li {
     list-style: none;
   }
@@ -323,7 +287,7 @@
 
   .nav-menu {
     position: fixed;
-    left: -100%;
+    left: -110%;
     top: 5rem;
     flex-direction: column;
     background-color: #fff;
@@ -359,6 +323,42 @@
   .hamburger.active .bar:nth-child(3) {
     translate: 0 -8px;
     rotate: -45deg;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+  .screen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .normal_navigation {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav li {
+    padding: 0.5em;
+  }
+  nav li a {
+    color: black;
+    font-family: raleway_regular;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+  .portrait {
+    width: 40%;
+    position: absolute;
+    top: 1%;
+    left: 60.5%;
   }
 }
 
