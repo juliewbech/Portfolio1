@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var collapsibles = document.querySelector(".collapsible");
+  var collapsibles = document.querySelectorAll(".collapsible");
 
   collapsibles.forEach(function (collapsible) {
     collapsible.addEventListener("click", function () {
