@@ -16,35 +16,10 @@
     padding: 20px;
   }
 
-  /* nav ul {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  nav li {
-    padding: 0.5em;
-    list-style: none;
-  }
-  nav li a {
-    color: black;
-    font-family: raleway-regular;
-    font-size: 20px;
-    letter-spacing: 4px;
-    list-style: none;
-  }
-
-  nav li a:hover {
-    color: black;
-    font-family: raleway-regular;
-    font-size: 15px;
-    letter-spacing: 4px;
-  } */
   .portrait {
-    width: 90%;
-    position: absolute;
-    top: 25%;
-    left: 11%;
+    width: 100%;
+    top: 10%;
+    left: 6%;
   }
 
   .portrait2 {
@@ -55,10 +30,11 @@
   }
 
   .image-container {
-    /* position: relative; */
+    position: absolute;
     left: 0%;
     top: 2%;
     width: 100%; /* Adjust as needed */
+    z-index: -1;
   }
 
   .image-container img {
@@ -67,11 +43,12 @@
 
   .headline {
     position: absolute;
-    top: 22%; /* Center vertically */
-    left: 45%; /* Center horizontally */
+
+    top: 18%; /* Center vertically */
+    left: 40%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Offset by half to center */
     color: rgb(41, 41, 41); /* Text color */
-    font-size: 30px; /* Adjust as needed */
+    font-size: 33px; /* Adjust as needed */
     line-height: 2px;
     font-family: abril;
   }
@@ -79,7 +56,7 @@
   .af {
     position: absolute;
     top: 30%; /* Center vertically */
-    left: 7%; /* Center horizontally */
+    left: 10%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Offset by half to center */
     color: rgb(41, 41, 41); /* Text color */
     font-size: 16px; /* Adjust as needed */
@@ -153,73 +130,7 @@
   .sat7link:hover {
     color: #b70083;
   }
-  /* header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  } */
 
-  /* .nav-menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    display: flex;
-  }
-
-  .nav-menu ul li {
-    margin: 0 15px;
-  }
-
-  .nav-menu ul li a {
-    color: white;
-    text-decoration: none;
-    font-family: raleway_regular;
-  }
-
-  .nav-menu ul li a:hover {
-    color: rgb(255, 255, 255);
-    font-family: raleway_regular;
-  }
-
-  .burger-menu {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-  }
-
-  .burger-menu .line {
-    width: 28px;
-    height: 3px;
-    background-color: rgb(49, 49, 49);
-    margin: 4px 0;
-  }
-  .burger-menu {
-    display: flex;
-  }
-
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #333;
-    position: absolute;
-    top: 60px;
-    left: 0;
-  }
-
-  .nav-menu ul {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .nav-menu ul li {
-    text-align: center;
-    margin: 10px 0;
-  }
-  .nav-menu.active {
-    display: flex;
-  } */
   li {
     list-style: none;
   }
@@ -237,6 +148,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    z-index: 7;
   }
 
   /* Hamburgeren laves gøres usynlig */
@@ -331,12 +243,12 @@
   .navbar {
     display: none;
   }
-  .screen {
+  /* .screen {
     width: 100%;
     aspect-ratio: 16/9;
     position: relative;
     overflow: hidden;
-  }
+  } */
 
   .normal_navigation {
     padding: 0;
