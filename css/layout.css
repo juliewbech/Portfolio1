@@ -1,5 +1,9 @@
 /* MOBIL */
 @media (min-width: 400px) {
+  body {
+    padding: 25px;
+  }
+
   .normal_nav {
     display: none;
   }
@@ -113,8 +117,8 @@
 
   .portrait {
     width: 100%;
-    top: 10%;
-    left: 3%;
+    top: 8%;
+    left: 1%;
   }
 
   .portrait2 {
@@ -441,13 +445,6 @@
     position: relative;
   }
 
-  .portrait {
-    width: 50%;
-    position: absolute;
-    top: 0.2%;
-    left: 50%;
-  }
-
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -562,11 +559,18 @@
     line-height: 35px;
   }
 
+  .portrait {
+    width: 60%;
+    top: 8%;
+    left: 40%;
+    position: absolute;
+  }
+
   .image-container {
     /* position: absolute; */
-    /* left: 0%;
-    top: 2%; */
     width: 100%; /* Adjust as needed */
+    z-index: -1;
+    position: relative;
   }
 
   .image-container img {
