@@ -23,8 +23,8 @@
   }
 
   .portrait2 {
-    width: 90%;
-    position: relative;
+    width: 100%;
+    /* position: relative; */
     top: 25%;
     left: 4%;
   }
@@ -307,5 +307,19 @@
     position: absolute;
     top: 0.2%;
     left: 51%;
+  }
+
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .portrait2 {
+    width: 80%;
+    left: 10%;
+  }
+
+  .grid1_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr fr;
   }
 }
