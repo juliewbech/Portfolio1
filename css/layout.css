@@ -1,7 +1,70 @@
 /* MOBIL */
 @media (min-width: 400px) {
-  .normal_navigation {
+  .normal_nav {
     display: none;
+  }
+  h1 {
+    font-size: tenor;
+    font-size: 55px;
+  }
+  h2 {
+    font-family: raleway_italic;
+    font-size: 30px;
+  }
+  h3 {
+    font-family: raleway_semibold;
+    font-size: 30px;
+  }
+  p {
+    font-size: raleway_regular;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .img {
+    width: 100%;
+    gap: 20px;
+    border-radius: 10px;
+  }
+
+  .img_kaffe {
+    width: 100%;
+    gap: 20px;
+    border-radius: 10px;
+  }
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .kaffelink {
+    background-color: rgb(162, 3, 120);
+    padding: 12px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+  }
+
+  .kaffelink:hover {
+    background-color: rgb(162, 3, 120);
+    opacity: 70%;
+    padding: 12px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
   }
 
   /* 
@@ -279,6 +342,9 @@
   .navbar {
     display: none;
   }
+  body {
+    padding: 40px;
+  }
   .screen {
     width: 100%;
     aspect-ratio: 16/9;
@@ -286,20 +352,38 @@
     overflow: hidden;
   }
 
-  .normal_navigation {
-    padding: 0;
+  .normal_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .navbar-nav {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
   }
-  nav li {
-    padding: 0.5em;
+
+  .nav-item {
+    margin-left: 20px;
   }
-  nav li a {
-    color: black;
-    font-family: font1;
+
+  .nav-link {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
     font-size: 22px;
-    letter-spacing: 4px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+  }
+  .autograph_header {
+    width: 70%;
+    position: relative;
   }
 
   .portrait {
@@ -312,6 +396,7 @@
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
   }
   .portrait2 {
     width: 80%;
@@ -321,5 +406,67 @@
   .grid1_1_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr fr;
+  }
+
+  .img {
+    width: 100%;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .img_kaffe {
+    width: 100%;
+    gap: 20px;
+    border-radius: 10px;
+  }
+  .kaffelink {
+    background-color: rgb(162, 3, 120);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+  }
+
+  .kaffelink:hover {
+    background-color: rgb(162, 3, 120);
+    opacity: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+  }
+
+  h1 {
+    font-size: tenor;
+    font-size: 55px;
+  }
+  h2 {
+    font-family: raleway_italic;
+    font-size: 40px;
+  }
+  h3 {
+    font-family: raleway_semibold;
+    font-size: 30px;
+  }
+  p {
+    font-size: raleway_regular;
+    font-size: 20px;
+    line-height: 35px;
   }
 }
