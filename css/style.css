@@ -28,20 +28,20 @@ html {
   src: url(../fonts/Raleway/Raleway-SemiBold.ttf);
 }
 
-.h1 {
+h1 {
   font-size: abril;
 }
-.h2 {
+h2 {
   font-size: raleway_italic;
 }
-.h3 {
+h3 {
   font-size: raleway_semibold;
 }
-.p {
+p {
   font-size: raleway_regular;
 }
 
-.linkedin {
+linkedin {
   width: 100%;
 }
 

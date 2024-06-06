@@ -1,3 +1,16 @@
+.port_h1 {
+  font-size: abril;
+}
+h2 {
+  font-size: raleway_italic;
+}
+h3 {
+  font-size: raleway_semibold;
+}
+p {
+  font-size: raleway_regular;
+}
+
 /* MOBIL */
 @media (min-width: 400px) {
   .normal_navigation {
