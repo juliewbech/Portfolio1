@@ -6,6 +6,10 @@ html {
   position: absolute;
 }
 
+.img {
+  width: 100%;
+}
+
 /* FONTS */
 @font-face {
   font-family: abril;
@@ -29,7 +33,7 @@ html {
 }
 
 h1 {
-  font-size: abril;
+  font-size: tenor;
 }
 h2 {
   font-size: raleway_italic;
