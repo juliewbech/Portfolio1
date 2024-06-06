@@ -1,0 +1,75 @@
+html {
+  background-image: url("../img/background/background_test2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+}
+
+/* FONTS */
+@font-face {
+  font-family: abril;
+  src: url(../fonts/Abril_Fatface\Tenor_Sans/Abril_Fatface);
+}
+@font-face {
+  font-family: tenor;
+  src: url(../fonts/Tenor_Sans/TenorSans-Regular.ttf);
+}
+@font-face {
+  font-family: raleway_regular;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: raleway_italic;
+  src: url(../fonts/Raleway/Raleway-Italic.ttf);
+}
+@font-face {
+  font-family: raleway_semibold;
+  src: url(../fonts/Raleway/Raleway-SemiBold.ttf);
+}
+
+.h1 {
+  font-size: abril;
+}
+.h2 {
+  font-size: raleway_italic;
+}
+.h3 {
+  font-size: raleway_semibold;
+}
+.p {
+  font-size: raleway_regular;
+}
+
+.linkedin {
+  width: 100%;
+}
+
+.collapsible {
+  background-color: aqua;
+  border-radius: 26px;
+  color: aliceblue;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-family: raleway_regular;
+}
+
+.active,
+.collapsible:hover {
+  color: blueviolet;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: azure;
+  border-radius: 5px;
+  transition: max-height 0.7s ease-out;
+  font-family: raleway_regular;
+}

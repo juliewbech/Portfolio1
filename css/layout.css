@@ -1,12 +1,5 @@
 /* MOBIL */
 @media (min-width: 400px) {
-  html {
-    background-image: url("../img/background/background_test2.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: absolute;
-  }
   .normal_navigation {
     display: none;
   }
