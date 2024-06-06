@@ -123,12 +123,12 @@
     top: 25%;
     left: 4%;
   }
-
+  /* 
   .image-container {
     position: absolute;
     left: 0%;
     top: 2%;
-    width: 100%; /* Adjust as needed */
+    width: 100%; 
     z-index: -1;
   }
 
@@ -139,36 +139,36 @@
   .headline {
     position: absolute;
 
-    top: 18%; /* Center vertically */
-    left: 40%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Offset by half to center */
-    color: rgb(41, 41, 41); /* Text color */
-    font-size: 33px; /* Adjust as needed */
+    top: 18%; 
+    left: 40%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(41, 41, 41); 
+    font-size: 33px; 
     line-height: 2px;
     font-family: abril;
   }
 
   .af {
     position: absolute;
-    top: 30%; /* Center vertically */
-    left: 10%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Offset by half to center */
-    color: rgb(41, 41, 41); /* Text color */
-    font-size: 16px; /* Adjust as needed */
+    top: 30%; 
+    left: 10%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(41, 41, 41); 
+    font-size: 16px; 
     line-height: 1px;
     font-family: raleway_italic;
   }
 
   .navn {
     position: absolute;
-    top: 38%; /* Center vertically */
-    left: 35%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Offset by half to center */
-    color: rgb(41, 41, 41); /* Text color */
-    font-size: 19px; /* Adjust as needed */
+    top: 38%; 
+    left: 35%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(41, 41, 41); 
+    font-size: 19px; 
     line-height: 2px;
     font-family: raleway_semibold;
-  }
+  } */
   .autograph_header {
     width: 15%;
     position: relative;
@@ -422,7 +422,7 @@
     width: 50%;
     position: absolute;
     top: 0.2%;
-    left: 51%;
+    left: 50%;
   }
 
   .grid_1_1 {
@@ -537,5 +537,55 @@
     font-size: raleway_regular;
     font-size: 18px;
     line-height: 35px;
+  }
+
+  .image-container {
+    /* position: absolute; */
+    /* left: 0%;
+    top: 2%; */
+    width: 100%; /* Adjust as needed */
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .headline {
+    position: fixed;
+    top: 35%; /* Center vertically */
+    left: 23%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset by half to center */
+  }
+  .headline_content {
+    color: rgb(41, 41, 41); /* Text color */
+    line-height: 2px;
+    font-family: abril;
+    font-size: 110px;
+  }
+
+  .af {
+    position: fixed;
+    top: 45%; /* Center vertically */
+    left: 10%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset by half to center */
+  }
+  .af_content {
+    color: rgb(41, 41, 41); /* Text color */
+    font-size: 45px; /* Adjust as needed */
+    line-height: 1px;
+    font-family: raleway_italic;
+  }
+
+  .navn {
+    position: fixed;
+    top: 55%; /* Center vertically */
+    left: 19%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset by half to center */
+  }
+  .navn_content {
+    color: rgb(41, 41, 41); /* Text color */
+    font-size: 56px; /* Adjust as needed */
+    line-height: 2px;
+    font-family: raleway_italic;
   }
 }
