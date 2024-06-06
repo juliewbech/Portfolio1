@@ -408,9 +408,10 @@
     left: 10%;
   }
 
-  .grid1_1_1_1 {
+  .grid1_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
   }
 
   .img {
