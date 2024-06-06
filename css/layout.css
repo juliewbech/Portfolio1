@@ -1,0 +1,181 @@
+/* MOBIL */
+@media (min-width: 400px) {
+  html {
+    background-image: url("../img/background/background_test2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+  }
+  .normal_navigation {
+    display: none;
+  }
+  .screen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+  }
+  body {
+    padding: 20px;
+  }
+  .portrait {
+    width: 90%;
+    position: absolute;
+    top: 25%;
+    left: 11%;
+  }
+  .portrait2 {
+    width: 90%;
+    position: relative;
+    top: 25%;
+    left: 4%;
+  }
+  .image-container {
+    /* position: absolute; */
+    left: 0%;
+    top: 2%;
+    width: 100%;
+  }
+  .image-container img {
+    width: 100%;
+  }
+  .headline {
+    position: absolute;
+    top: 22%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 30px;
+    line-height: 2px;
+    font-family: abril;
+  }
+  .af {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 16px;
+    line-height: 1px;
+    font-family: raleway_italic;
+  }
+  .navn {
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 19px;
+    line-height: 2px;
+    font-family: raleway_semibold;
+  }
+  .autograph_header {
+    width: 15%;
+    position: relative;
+  }
+  .autograph_footer {
+    width: 12%;
+  }
+  .footer_tekst {
+    font-family: raleway_regular;
+    line-height: 11px;
+    font-size: 13px;
+  }
+  .hyldestimg {
+    width: 100%;
+  }
+  .sat7 {
+    width: 100%;
+  }
+  .p {
+    font-family: raleway_regular;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .ommig_h1 {
+    font-family: abril;
+    font-size: 55px;
+  }
+  .ommig_h2 {
+    font-family: abril;
+    font-size: 45px;
+  }
+  .ommig_h3 {
+    font-family: raleway_semibold;
+    font-size: 22px;
+  }
+  .ommig_h4 {
+    font-family: raleway_semibold;
+    font-size: 20px;
+  }
+  .sat7link {
+    font-family: raleway_regular;
+    font-size: 18px;
+    color: black;
+  }
+  .sat7link:hover {
+    color: rgb(255, 0, 166);
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+  }
+  .nav-menu ul li {
+    margin: 0 15px;
+  }
+
+  .nav-menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: raleway_regular;
+  }
+  .nav-menu ul li a:hover {
+    color: #ffffff;
+    font-family: raleway_regular;
+  }
+  .burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .burger-menu .line {
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+  }
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 68px;
+    left: 0;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-menu ul li {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .nav-menu.active {
+    display: flex;
+  }
+}
