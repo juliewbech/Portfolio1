@@ -405,9 +405,9 @@
   .bech_content {
     display: none;
   }
-  body {
+  /* body {
     padding: 40px;
-  }
+  } */
   .screen {
     width: 100%;
     aspect-ratio: 16/9;
@@ -566,10 +566,10 @@
   }
 
   .portrait {
-    width: 60%;
+    width: 100%;
     top: 8%;
-    left: 40%;
-    position: absolute;
+    left: 45%;
+    /* position: absolute; */
   }
 
   .image-container {
@@ -624,5 +624,6 @@
   .portrait4 {
     width: 100%;
     z-index: -1;
+    aspect-ratio: 2019/1156;
   }
 }
