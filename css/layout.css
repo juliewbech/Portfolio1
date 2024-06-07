@@ -615,4 +615,8 @@
     line-height: 2px;
     font-family: raleway_italic;
   }
+  .portrait4 {
+    width: 100%;
+    z-index: -1;
+  }
 }
