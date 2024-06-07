@@ -34,6 +34,7 @@ html {
 
 h1 {
   font-size: tenor;
+  font-size: 55px;
 }
 h2 {
   font-size: raleway_italic;
@@ -49,7 +50,7 @@ linkedin {
   width: 100%;
 }
 
-.collapsible {
+/* .collapsible {
   background-color: aqua;
   border-radius: 26px;
   color: aliceblue;
@@ -76,7 +77,7 @@ linkedin {
   border-radius: 5px;
   transition: max-height 0.7s ease-out;
   font-family: raleway_regular;
-}
+} */
 
 .temaknap {
   stroke: black;
@@ -105,4 +106,50 @@ linkedin {
   outline: none;
   text-decoration: none;
   cursor: pointer;
+}
+
+.temaknap {
+  stroke: black;
+  stroke-width: 15em;
+  background-color: rgb(62, 62, 62);
+  padding: 13px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.kaffelink {
+  background-color: rgb(162, 3, 120);
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 25px;
+  border: none;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: raleway_regular;
+}
+
+.kaffelink:hover {
+  background-color: rgb(162, 3, 120);
+  opacity: 70%;
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 25px;
+  border: none;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: raleway_regular;
 }
