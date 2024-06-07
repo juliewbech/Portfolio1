@@ -123,6 +123,8 @@
     width: 100%;
     top: 8%;
     left: 1%;
+    /* position: absolute;
+    z-index: -3; */
   }
 
   .portrait2 {
@@ -155,7 +157,7 @@
     color: rgb(41, 41, 41); /* Text color */
     line-height: 2px;
     font-family: abril;
-    font-size: 80px;
+    font-size: 63px;
   }
 
   .af {
@@ -165,7 +167,7 @@
   }
   .af_content {
     color: rgb(41, 41, 41); /* Text color */
-    font-size: 32px; /* Adjust as needed */
+    font-size: 28px; /* Adjust as needed */
     line-height: 1px;
     font-family: raleway_italic;
   }
@@ -177,7 +179,7 @@
   }
   .navn_content {
     color: rgb(41, 41, 41); /* Text color */
-    font-size: 40px; /* Adjust as needed */
+    font-size: 32px; /* Adjust as needed */
     line-height: 2px;
     text-align: left;
     font-family: raleway_italic;
@@ -189,7 +191,7 @@
   }
   .bech_content {
     color: rgb(41, 41, 41); /* Text color */
-    font-size: 38px; /* Adjust as needed */
+    font-size: 32px; /* Adjust as needed */
     line-height: 2px;
     text-align: left;
     font-family: raleway_italic;
@@ -436,7 +438,7 @@
   .nav-link {
     color: rgb(34, 34, 34);
     text-decoration: none;
-    font-size: 26px;
+    font-size: 20px;
 
     font-family: raleway_regular;
     transition: color 0.3s ease;
@@ -561,15 +563,16 @@
   }
   p {
     font-family: raleway_regular;
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 15px;
+    line-height: 30px;
   }
 
   .portrait {
-    width: 100%;
+    width: 60%;
     top: 8%;
-    left: 45%;
-    /* position: absolute; */
+    left: 40%;
+    position: absolute;
+    z-index: -3;
   }
 
   .image-container {
@@ -586,7 +589,7 @@
   .headline {
     position: fixed;
     top: 35%; /* Center vertically */
-    left: 23%; /* Center horizontally */
+    left: 27%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Offset by half to center */
   }
   .headline_content {
@@ -599,7 +602,7 @@
   .af {
     position: fixed;
     top: 45%; /* Center vertically */
-    left: 10%; /* Center horizontally */
+    left: 13%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Offset by half to center */
   }
   .af_content {
@@ -611,8 +614,8 @@
 
   .navn {
     position: fixed;
-    top: 55%; /* Center vertically */
-    left: 19%; /* Center horizontally */
+    top: 54%; /* Center vertically */
+    left: 22%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Offset by half to center */
   }
   .navn_content {
@@ -624,6 +627,10 @@
   .portrait4 {
     width: 100%;
     z-index: -1;
-    aspect-ratio: 2019/1156;
+  }
+
+  .footer_text {
+    z-index: -5;
+    /* position: absolute; */
   }
 }
