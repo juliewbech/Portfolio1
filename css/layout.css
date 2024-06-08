@@ -27,6 +27,11 @@
     font-family: raleway_semibold;
     font-size: 30px;
   }
+  h4 {
+    font-family: raleway_semibold;
+    font-size: 20px;
+  }
+
   p {
     font-family: raleway_regular;
     font-size: 19px;
@@ -72,36 +77,6 @@
     font-family: raleway_regular;
   }
 
-  .kaffelink {
-    background-color: rgb(162, 3, 120);
-    padding: 20px;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
-    width: 100%;
-    font-size: 25px;
-    border: none;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: raleway_regular;
-  }
-
-  .kaffelink:hover {
-    background-color: rgb(162, 3, 120);
-    opacity: 70%;
-    padding: 20px;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
-    width: 100%;
-    font-size: 25px;
-    border: none;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: raleway_regular;
-  }
   .temaknap {
     background-color: rgb(249, 69, 255);
     padding: 13px;
@@ -141,12 +116,12 @@
   }
 
   .kaffelink {
-    background-color: rgb(162, 3, 120);
-    padding: 12px;
+    background-color: rgb(249, 69, 255);
+    padding: 15px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
-    width: 60%;
-    font-size: 12px;
+    width: 100%;
+    font-size: 15px;
     border: none;
     text-align: center;
     outline: none;
@@ -156,13 +131,13 @@
   }
 
   .kaffelink:hover {
-    background-color: rgb(162, 3, 120);
+    background-color: rgba(249, 69, 255, 0.452);
     opacity: 70%;
-    padding: 12px;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
-    width: 60%;
-    font-size: 12px;
+    padding: 15px;
+    border-radius: 20x;
+    color: #482ff7;
+    width: 100%;
+    font-size: 15px;
     border: none;
     text-align: center;
     outline: none;
