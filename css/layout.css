@@ -1,5 +1,9 @@
 /* MOBIL */
 @media (min-width: 400px) {
+  nav {
+    display: none;
+  }
+
   body {
     padding: 25px;
   }
