@@ -47,18 +47,19 @@
     border-radius: 26px;
     color: aliceblue;
     cursor: pointer;
-    padding: 16px;
+    padding: 13px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 18px;
+    font-size: 15px;
     font-family: raleway_regular;
   }
 
   .active,
   .collapsible:hover {
     background-color: rgba(249, 69, 255, 0.452);
+    color: #482ff7;
   }
 
   .content {
@@ -66,9 +67,68 @@
     display: none;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 20px;
     transition: max-height 0.7s ease-out;
     font-family: raleway_regular;
+  }
+
+  .kaffelink {
+    background-color: rgb(162, 3, 120);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+  }
+
+  .kaffelink:hover {
+    background-color: rgb(162, 3, 120);
+    opacity: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+  }
+  .temaknap {
+    background-color: rgb(249, 69, 255);
+    padding: 13px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+    font-size: 12px;
+  }
+  .temaknap:hover {
+    background-color: rgba(249, 69, 255, 0.452);
+    padding: 13px;
+    border-radius: 20px;
+    color: #482ff7;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+    font-size: 12px;
   }
   .img_kaffe {
     width: 100%;
@@ -223,23 +283,23 @@
 
   p {
     font-family: raleway_regular;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 25px;
   }
 
   .ommig_h1 {
     font-family: abril;
-    font-size: 55px;
+    font-size: 50px;
   }
 
   .ommig_h2 {
-    font-family: abril;
-    font-size: 45px;
+    font-family: raleway_semibold;
+    font-size: 23px;
   }
 
   .ommig_h3 {
     font-family: raleway_semibold;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .ommig_h4 {
