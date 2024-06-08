@@ -707,12 +707,18 @@
   }
   h2 {
     font-family: raleway_italic;
-    font-size: 40px;
+    font-size: 35px;
   }
   h3 {
     font-family: raleway_semibold;
     font-size: 30px;
   }
+
+  h4 {
+    font-family: raleway_semibold;
+    font-size: 22px;
+  }
+
   p {
     font-family: raleway_regular;
     font-size: 14px;
