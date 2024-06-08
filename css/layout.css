@@ -562,7 +562,7 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 18px;
+    font-size: 15px;
     font-family: raleway_regular;
   }
 
@@ -655,8 +655,8 @@
   }
   p {
     font-family: raleway_regular;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 23px;
   }
 
   .portrait {
@@ -729,5 +729,25 @@
 
   .linkedin {
     width: 3%;
+  }
+
+  .ommig_h1 {
+    font-family: abril;
+    font-size: 55px;
+  }
+
+  .ommig_h2 {
+    font-family: raleway_semibold;
+    font-size: 28px;
+  }
+
+  .ommig_h3 {
+    font-family: raleway_semibold;
+    font-size: 22px;
+  }
+
+  .ommig_h4 {
+    font-family: raleway_semibold;
+    font-size: 20px;
   }
 }
