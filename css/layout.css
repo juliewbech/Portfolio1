@@ -1,5 +1,10 @@
 /* MOBIL */
 @media (min-width: 400px) {
+  .grid1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   nav {
     display: none;
   }
@@ -790,5 +795,10 @@
   .ommig_h4 {
     font-family: raleway_semibold;
     font-size: 20px;
+  }
+
+  .grid1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
