@@ -1,7 +1,8 @@
 /* MOBIL */
 @media (min-width: 400px) {
   .grid_1-1-1 {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .grid1-1-1 {
     display: grid;
@@ -411,6 +412,11 @@
     width: 20%;
     margin-top: 10px;
   }
+
+  .linkedin1 {
+    width: 15%;
+    margin-top: 10px;
+  }
 }
 
 /* TABLET */
@@ -774,12 +780,16 @@
   }
 
   .footer_text {
-    font-family: raleway_regular;
-    line-height: 11px;
-    font-size: 15px;
+    font-family: raleway_italic;
+    line-height: 5px;
+    font-size: 12px;
   }
 
   .linkedin {
+    width: 7%;
+  }
+
+  .linkedin1 {
     width: 3%;
   }
 
