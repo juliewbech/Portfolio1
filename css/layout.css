@@ -643,12 +643,12 @@
   }
 
   .kaffelink {
-    background-color: rgb(162, 3, 120);
-    padding: 20px;
+    background-color: rgb(249, 69, 255);
+    padding: 15px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
     width: 100%;
-    font-size: 25px;
+    font-size: 17px;
     border: none;
     text-align: center;
     outline: none;
@@ -658,13 +658,13 @@
   }
 
   .kaffelink:hover {
-    background-color: rgb(162, 3, 120);
+    background-color: rgba(249, 69, 255, 0.452);
     opacity: 70%;
-    padding: 20px;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 20x;
+    color: #482ff7;
     width: 100%;
-    font-size: 25px;
+    font-size: 17px;
     border: none;
     text-align: center;
     outline: none;
