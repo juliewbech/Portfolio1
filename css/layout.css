@@ -577,7 +577,7 @@
     display: none;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 20px;
     transition: max-height 0.7s ease-out;
     font-family: raleway_regular;
   }
@@ -611,6 +611,34 @@
     text-decoration: none;
     cursor: pointer;
     font-family: raleway_regular;
+  }
+  .temaknap {
+    background-color: rgb(249, 69, 255);
+    padding: 13px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+    font-size: 14px;
+  }
+  .temaknap:hover {
+    background-color: rgba(249, 69, 255, 0.452);
+    padding: 13px;
+    border-radius: 20px;
+    color: #482ff7;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: raleway_regular;
+    font-size: 14px;
   }
 
   h1 {
