@@ -420,7 +420,7 @@
     overflow: hidden;
   }
 
-  .normal_nav {
+  /* .normal_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -449,6 +449,57 @@
   .nav-link:hover {
     color: #ff00dd;
     text-decoration: underline;
+  } */
+
+  /* nav {
+    background-color: #333;
+  } */
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    position: relative;
+  }
+
+  nav ul li a {
+    display: block;
+    color: rgb(53, 53, 53);
+    padding: 14px 20px;
+    font-family: raleway_regular;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    background-color: #575757;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 
   .autograph_header {

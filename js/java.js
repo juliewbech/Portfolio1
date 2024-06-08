@@ -48,3 +48,13 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var dropdown = document.querySelector(".dropbtn");
+  dropdown.addEventListener("click", function (event) {
+    event.preventDefault();
+    var dropdownContent = this.nextElementSibling;
+    dropdownContent.style.display =
+      dropdownContent.style.display === "block" ? "none" : "block";
+  });
+});
