@@ -1,9 +1,13 @@
 /* MOBIL */
 @media (min-width: 400px) {
+  .grid_1-1-1 {
+    display: none;
+  }
   .grid1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
+    justify-content: center;
   }
 
   nav {
@@ -802,5 +806,10 @@
   .grid1-1-1 {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
