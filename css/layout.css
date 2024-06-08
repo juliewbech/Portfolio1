@@ -2,7 +2,8 @@
 @media (min-width: 400px) {
   .grid1-1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
   }
 
   nav {
@@ -251,7 +252,7 @@
   .footer_text {
     font-family: raleway_regular;
     line-height: 11px;
-    font-size: 13px;
+    font-size: 11px;
   }
   .hyldestimg {
     width: 100%;
@@ -403,7 +404,8 @@
     rotate: -45deg;
   }
   .linkedin {
-    width: 10%;
+    width: 20%;
+    margin-top: 10px;
   }
 }
 
