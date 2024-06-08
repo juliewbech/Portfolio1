@@ -31,7 +31,7 @@ html {
   font-family: raleway_semibold;
   src: url(../fonts/Raleway/Raleway-SemiBold.ttf);
 }
-
+/* 
 h1 {
   font-size: tenor;
   font-size: 55px;
@@ -44,7 +44,7 @@ h3 {
 }
 p {
   font-size: raleway_regular;
-}
+} */
 
 /* .collapsible {
   background-color: aqua;
