@@ -518,7 +518,7 @@
   }
 
   nav ul li a:hover {
-    color: #b70083;
+    color: rgb(249, 69, 255);
     text-decoration: underline;
   }
 
