@@ -451,9 +451,12 @@
     text-decoration: underline;
   } */
 
-  /* nav {
-    background-color: #333;
-  } */
+  /* styles.css */
+
+  nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns the nav bar items to the right */
+  }
 
   nav ul {
     list-style-type: none;
@@ -468,27 +471,30 @@
 
   nav ul li a {
     display: block;
-    color: rgb(53, 53, 53);
+    color: rgb(48, 48, 48);
     padding: 14px 20px;
-    font-family: raleway_regular;
     text-decoration: none;
+    font-family: raleway_regular;
+    font-size: 18px;
   }
 
   nav ul li a:hover {
-    background-color: #575757;
+    color: #b70083;
+    text-decoration: underline;
   }
 
   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    border-radius: 5px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
 
   .dropdown-content a {
-    color: black;
+    color: rgb(48, 48, 48);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
