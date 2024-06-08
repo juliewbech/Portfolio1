@@ -348,24 +348,26 @@
   }
 
   .nav-item {
-    margin-left: 5rem;
+    margin-left: 5px;
   }
 
   .nav-link {
-    font-size: 1.6rem;
+    font-size: 18px;
     font-weight: 400;
     color: #475569;
+    font-family: raleway_regular;
+    text-align: center;
   }
 
   .nav-link:hover {
-    color: #482ff7;
+    color: rgb(249, 69, 255);
   }
 
-  .nav-logo {
+  /* .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
     color: #482ff7;
-  }
+  } */
 
   /* step 7 */
 
@@ -387,7 +389,7 @@
   }
 
   .nav-item {
-    margin: 2.5rem 0;
+    margin: 20px 0;
   }
 
   .hamburger {
