@@ -57,6 +57,7 @@
     width: 100%;
     gap: 20px;
     border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .video {
@@ -75,6 +76,7 @@
     outline: none;
     font-size: 15px;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .active,
@@ -91,6 +93,7 @@
     border-radius: 20px;
     transition: max-height 0.7s ease-out;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .temaknap {
@@ -106,6 +109,7 @@
     cursor: pointer;
     font-family: raleway_regular;
     font-size: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
   .temaknap:hover {
     background-color: rgba(249, 69, 255, 0.452);
@@ -120,6 +124,7 @@
     cursor: pointer;
     font-family: raleway_regular;
     font-size: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
   .img_kaffe {
     width: 100%;
@@ -144,6 +149,7 @@
     text-decoration: none;
     cursor: pointer;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .kaffelink:hover {
@@ -160,6 +166,7 @@
     text-decoration: none;
     cursor: pointer;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   /* 
@@ -267,6 +274,7 @@
   }
   .hyldestimg {
     width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .sat7 {
@@ -424,11 +432,13 @@
   .linkedin {
     width: 27%;
     margin-top: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .linkedin1 {
     width: 27%;
     margin-top: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -604,6 +614,7 @@
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .video {
@@ -615,6 +626,7 @@
     width: 100%;
     gap: 20px;
     border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .collapsible {
@@ -629,12 +641,14 @@
     outline: none;
     font-size: 15px;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .active,
   .collapsible:hover {
     background-color: rgba(249, 69, 255, 0.452);
     color: #482ff7;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .content {
@@ -645,6 +659,7 @@
     border-radius: 20px;
     transition: max-height 0.7s ease-out;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .kaffelink {
@@ -660,6 +675,7 @@
     text-decoration: none;
     cursor: pointer;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .kaffelink:hover {
@@ -676,6 +692,7 @@
     text-decoration: none;
     cursor: pointer;
     font-family: raleway_regular;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
   .temaknap {
     background-color: rgb(249, 69, 255);
@@ -690,6 +707,7 @@
     cursor: pointer;
     font-family: raleway_regular;
     font-size: 14px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
   .temaknap:hover {
     background-color: rgba(249, 69, 255, 0.452);
@@ -704,6 +722,7 @@
     cursor: pointer;
     font-family: raleway_regular;
     font-size: 14px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   h1 {
@@ -741,6 +760,7 @@
     left: 40%;
     position: absolute;
     z-index: -3;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
   }
 
   .image-container {
@@ -806,10 +826,12 @@
 
   .linkedin {
     width: 7%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .linkedin1 {
     width: 3%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   }
 
   .ommig_h1 {
